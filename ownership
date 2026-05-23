@@ -1,0 +1,16 @@
+data in rust are stored in stack or d heap
+the stack size are known at ompile the time 
+eg u32 i32
+data - accessibility is fast
+data are stored as LIFO
+
+
+//////////////////////////////////////
+heap `size are unknow at compile time 
+slower than stack 
+data are manage by ownership and borrowing
+
+ownership rule
+Each value in Rust has an owner (usually a variable)
+There can only be one owner at a time
+When the owner goes out of scope, the value is dropped (deleted from memory)
